@@ -1,0 +1,12 @@
+html, body {
+    margin: 0;           /* Kein Rand */
+    padding: 0;          /* Kein Padding */
+    overflow: hidden;    /* Scrollen verhindern */
+    width: 100%;
+    height: 100%;
+}
+
+#myCanvas {
+    display: block;      /* Entfernt unerwünschte Abstände */
+    background-size: contain; /* optional, wenn du Hintergrundbilder hast */
+}
